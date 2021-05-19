@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# React & Tailwind CSS 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Pixabay Image Gallery 
 
-## Available Scripts
+Simple gallery with images from the pixabay API. Tailwind css is built into workflow with postcss and autoprefixer.
 
-In the project directory, you can run:
+## Built With
 
-### `yarn start`
+- React
+- Tailwindcss
+- Postcss
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Getting Started
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Clone the repo `https://github.com/IjayAbby/react-tailwindcss`
+- cd into `react-tailwindcss`
+- Run `git pull origin development`
 
-### `yarn test`
+## Usage
+Add your Pixabay API key to .env - https://pixabay.com/api/docs/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+# Install dependencies
+npm install
 
-### `yarn build`
+# Watch CSS & run server on :3000
+npm start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Build CSS and assets
+npm run build
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Live Demo](https://optimistic-mclean-8a701e.netlify.app/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Author
 
-### `yarn eject`
+👤 **Ijay Abby**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Github: [@githubhandle](https://github.com/IjayAbby)
+- Twitter: [@twitterhandle](https://twitter.com/Ijay_js)
+- Linkedin: [linkedin](https://www.linkedin.com/in/ijayabby4/)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🤝 Contributing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Contributions, issues and feature requests are always welcome!
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+I love meeting other developers, especially ones that give me advice on how to improve my work.
 
-## Learn More
+Feel free to check the [issues page](https://github.com/IjayAbby/react-tailwindcss/issues).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### How to Contribute
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To get a local copy up and running follow these simple example steps.
 
-### Code Splitting
+```
+- Fork the repository
+- git clone https://github.com/your_username/react-tailwindcss
+- git checkout development
+- git checkout -b branch name
+- git remote add upstream https://github.com/IjayAbby/react-tailwindcss
+- git pull upstream development
+- git commit -m "commit message"
+- git push -u origin HEAD
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Show your support
 
-### Analyzing the Bundle Size
+Finally, if you've read this far, don't forget to give this repo a ⭐️. They're free . . . I think.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Acknowledgments
 
-### Making a Progressive Web App
+- [Traversy Media](https://www.youtube.com/watch?v=FiGmAI5e91M).
+- [Pixabay ](https://pixabay.com/api/?key=21670638-cf15c3b8a9eafa9f14ba68cd3&q=yellow+flowers&image_type=photo&pretty=true) for API.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📝 License
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](https://github.com/IjayAbby/react-tailwindcss/blob/main/LICENSE) licensed.
