@@ -30,7 +30,7 @@ npm start
 npm run build
 ```
 
-![Live Demo](https://compassionate-rosalind-f179f5.netlify.app/)
+![Live Demo](https://compassionate-rosalind-f179f5.netlify.app)
 
 ## Author
 
